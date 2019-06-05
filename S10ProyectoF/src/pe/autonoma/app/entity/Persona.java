@@ -8,8 +8,6 @@ public class Persona {
 	private int edad;
 	private String hobbies;
 	
-	
-	
 	public Persona(int persona_id, String nombres, String apellidos, int edad,
 			String hobbies) {
 		super();
@@ -50,10 +48,4 @@ public class Persona {
 	public void setHobbies(String hobbies) {
 		this.hobbies = hobbies;
 	}
-	
-	
-	
-	
-	
-	
 }

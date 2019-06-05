@@ -13,14 +13,14 @@
 <body>
 	<h2 class="medio">Todas las personas Aqui</h2>
 	
-			<table border=1 style=solid border-color=blue>
+			<table border="1">
 			<tr>
 			<th>Persona ID</th>
 			<th>Nombres </th>
 			<th>Apellidos </th>
 			<th>Edad </th>
 			<th>Hobbies </th>
-			<th>Acción </th>
+
 			<%
 			List<Persona> listPersonas = (List)request.getAttribute("listPersonas");
 			for(int i=0;i<listPersonas.size(); i++){
@@ -33,8 +33,6 @@
 				out.print("</tr>");
 			}
 			%>
-			<td> Eliminar </td>
-			
 			</tr>
 			</table>
 </body>

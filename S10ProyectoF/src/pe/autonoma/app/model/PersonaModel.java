@@ -49,8 +49,7 @@ public class PersonaModel {
 	
 	public boolean insertarPersona(DataSource dataSource, Persona persona){
 		Connection connect = null;
-        Statement stmt = null;
-        ResultSet rs = null;
+      
 
 
         try {
